@@ -1,0 +1,107 @@
+.job-info-wrapper {
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  margin: 20px 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.job-info-left-section {
+  width: 50%;
+  height: 100%;
+}
+
+.job-info-right-section {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  /* background-color: antiquewhite; */
+}
+.job-info-top {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+}
+.job-info-tags {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.job-info-img {
+  width: 30%;
+  height: 80%;
+}
+
+.job-info-img img {
+  width: 80%;
+  height: 80%;
+}
+
+.job-info-title {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.job-info-title p {
+  margin: 0px;
+}
+.job-info-name {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  color: #000000;
+}
+.job-info-place {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #000000;
+}
+.job-info-date {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 590;
+  line-height: 19px;
+  letter-spacing: 0em;
+
+  color: #000000;
+}
+
+.job-info-status {
+  text-align: center;
+  background: #bbfeb5;
+  border-radius: 3px;
+}
+.job-info-status-text {
+  margin: 10px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 590;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.job-info-icons-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.job-info-icons-wrapper .nav-icon-wrapper {
+    width: 50px;
+}

@@ -1,0 +1,60 @@
+.job-prop-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.job-prop-card {
+  height: 201px;
+  width: 245px;
+  border-radius: 5px;
+  /* background-color: antiquewhite; */
+}
+
+.job-prop-title-text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+.job-prop-title-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+
+.job-prop-title-wrapper :hover {
+  cursor: auto;
+  transform: scale(1);
+}
+
+.job-prop-title-wrapper .nav-icon-wrapper {
+  width: 75px;
+}
+.job-prop-title-text {
+  margin: 0;
+}
+
+.job-prop-skills {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.job-prop-skills .tag-wrapper {
+  margin-top: 10px;
+}
+
+.job-prop-text {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  margin: 10px 0px 10px 75px;
+}

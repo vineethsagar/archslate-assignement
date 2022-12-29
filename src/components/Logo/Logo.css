@@ -1,0 +1,7 @@
+.logo-wrapper {
+    margin: auto 24px;
+    display: flex;
+    /* width: 20%; */
+    align-items: center;
+    justify-content: space-evenly;
+}

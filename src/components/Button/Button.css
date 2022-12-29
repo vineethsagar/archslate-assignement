@@ -1,0 +1,27 @@
+.button-main {
+  border-radius: 50px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button-start-icon{
+    margin-left: 10px;
+}
+
+.button-main:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition-timing-function: ease-in-out;
+}
+
+.button-text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  margin: 0;
+  padding: 10px;
+}
